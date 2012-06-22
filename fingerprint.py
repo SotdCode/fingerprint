@@ -1,6 +1,4 @@
 from plugininterface import basePlugin
-import inspect
-import os
 
 class fingerprint(basePlugin):
         
@@ -35,7 +33,7 @@ class fingerprint(basePlugin):
                 print 'Current User: ' + haxhelper.executeSystemCommand('whoami ')
                 print 'User ID: '+ haxhelper.executeSystemCommand('id')
                 print '########### Interfaces #############'
-                print haxhelper.executeSystemCommand(" /sbin/ifconfig  ")
+                print haxhelper.executeSystemCommand(" /sbin/ifconfig ")
                 print '########### /etc/passwd ############'
                 print haxhelper.executeSystemCommand('cat /etc/passwd ')
                 print '########################################################################'
