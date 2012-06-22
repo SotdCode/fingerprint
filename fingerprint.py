@@ -35,7 +35,6 @@ class fingerprint(basePlugin):
                 print 'Current User: ' + haxhelper.executeSystemCommand('whoami ')
                 print 'User ID: '+ haxhelper.executeSystemCommand('id')
                 print '########### Interfaces #############'
-                print ' Ifconfig\n'
                 print haxhelper.executeSystemCommand('ifconfig ')
                 print '########### /etc/passwd ############'
                 print haxhelper.executeSystemCommand('cat /etc/passwd ')
