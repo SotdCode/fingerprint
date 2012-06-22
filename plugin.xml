@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin 
+                name="Fingerprint"
+                startup="fingerprint" 
+                version="1"
+                autor="Sotd"
+                email="sotd@tormail.org"
+                url="http://github.com/SotdCode"
+/>
