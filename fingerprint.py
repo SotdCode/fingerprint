@@ -30,7 +30,7 @@ class fingerprint(basePlugin):
                 print '############# System #################'
                 print 'Proc: ' + haxhelper.executeSystemCommand("cat /proc/cpuinfo | grep 'model name' ")
                 print 'Ram: ' + haxhelper.executeSystemCommand("cat /proc/meminfo | grep 'MemTotal' ")
-                print 'Php Ver: ' + haxhelper.executeSystemCommand("php -i | grep -m 1  'PHP Version' ")
+                print 'Php Ver: ' + haxhelper.executeSystemCommand("php -i | grep 'PHP Version' ")
                 print '########### User Info ##############'
                 print 'Current User: ' + haxhelper.executeSystemCommand('whoami ')
                 print 'User ID: '+ haxhelper.executeSystemCommand('id')
@@ -41,4 +41,3 @@ class fingerprint(basePlugin):
                 print haxhelper.executeSystemCommand('cat /etc/passwd ')
                 print '########################################################################'
                 print '\n Fingerprinting complete\n'
-                
